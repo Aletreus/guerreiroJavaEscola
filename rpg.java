@@ -16,6 +16,7 @@ public class Guerreiro {
     private int xpNecessario;
     ArrayList<String> armas = new ArrayList();
     Scanner teclado = new Scanner (System.in);
+    ArrayList<Loja> lojas = new ArrayList();
 
     public Guerreiro(String nome) {
         this.hp = 100;
@@ -337,6 +338,7 @@ public class Guerreiro {
     }
 
     public void comprarArmas(){
+        lojas.add(new Loja("Adaga", 10, 30));
         System.out.println("Bem-vindo à loja de armas, qual deseja?: \n" +
             "1 - Adaga (Atk: 10, custo: 30);\n" +
             "2 - Clava (Atk: 13, custo: 45);\n" +
@@ -490,8 +492,19 @@ public class Guerreiro {
             "150 - Lança do Fim dos Tempos (Atk: 3994, custo: 11259);"
             );
             int armaComprar = teclado.nextInt();
-            switch(armaComprar){}
-                
+            if(armas.contains(lojas.get(armaComprar).getNome()){
+                sistem.out.println("Voce ja comprou esta arma, nao e possivel comprar ela duas vezes.");
+            }
+            if(this.cash > lojas.get(armaComprar).getCusto()){
+                sistem.out.println("Voce nao possui coins suficientes para comprar esta arma");
+                break;
+            }else{
+                armas.add(lojas.get(armaComprar).getNome());
+                this.cash -= lojas.get(armaComprar).getCusto();
+                this.atk += lojas.get(armaComprar).getDano();
+                sistem.out.printf("Voce comprou a arma '%s' pelo valor de %d coins. Agora voce tem %d coins e esta com ataque de %d de dano.", lojas.get(armaComprar).getNome(), lojas.get(armaComprar).getCusto(), this.cash, this.atk);
+                sistem.out.println("");
+            }    
 }
 
     
