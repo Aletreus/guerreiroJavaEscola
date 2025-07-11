@@ -18,6 +18,157 @@ public class Guerreiro {
     Scanner teclado = new Scanner (System.in);
     ArrayList<Loja> lojas = new ArrayList();
 
+    lojas.add(new Loja("Adaga", 10, 30));
+    lojas.add(new Loja("Clava", 13, 45));
+    lojas.add(new Loja("Espada Curta", 16, 60));
+    lojas.add(new Loja("Maça de Ferro", 19, 78));
+    lojas.add(new Loja("Lança Leve", 22, 95));
+    lojas.add(new Loja("Espada Longa", 26, 115));
+    lojas.add(new Loja("Machado de Mão", 30, 135));
+    lojas.add(new Loja("Lança Média", 34, 158));
+    lojas.add(new Loja("Martelo de Pedra", 38, 182));
+    lojas.add(new Loja("Espada Bastarda", 43, 208));
+    lojas.add(new Loja("Alabarda Simples", 48, 235));
+    lojas.add(new Loja("Espada Rúnica", 54, 263));
+    lojas.add(new Loja("Machado Pesado", 60, 292));
+    lojas.add(new Loja("Lança Afiada", 66, 322));
+    lojas.add(new Loja("Maça de Guerra", 73, 353));
+    lojas.add(new Loja("Espada Flamejante", 80, 385));
+    lojas.add(new Loja("Machado de Titânio", 88, 418));
+    lojas.add(new Loja("Martelo de Guerra", 96, 452));
+    lojas.add(new Loja("Lança de Elite", 104, 487));
+    lojas.add(new Loja("Espada Negra", 113, 523));
+    lojas.add(new Loja("Lâmina Sombria", 122, 560));
+    lojas.add(new Loja("Clava Mística", 132, 598));
+    lojas.add(new Loja("Machado Duplo", 142, 637));
+    lojas.add(new Loja("Espada do Vento", 153, 677));
+    lojas.add(new Loja("Maça Espiritual", 164, 718));
+    lojas.add(new Loja("Lança do Caçador", 176, 760));
+    lojas.add(new Loja("Espada de Prata", 188, 803));
+    lojas.add(new Loja("Alabarda de Ferro", 201, 847));
+    lojas.add(new Loja("Machado de Aço", 214, 892));
+    lojas.add(new Loja("Espada Sagrada", 228, 938));
+    lojas.add(new Loja("Lança do Trovão", 242, 985));
+    lojas.add(new Loja("Martelo de Titã", 257, 1033));
+    lojas.add(new Loja("Lâmina de Sangue", 272, 1082));
+    lojas.add(new Loja("Espada Dracônica", 288, 1132));
+    lojas.add(new Loja("Machado da Ira", 304, 1183));
+    lojas.add(new Loja("Espada de Gelo", 321, 1235));
+    lojas.add(new Loja("Maça de Luz", 338, 1288));
+    lojas.add(new Loja("Lança da Morte", 356, 1342));
+    lojas.add(new Loja("Espada de Cristal", 374, 1397));
+    lojas.add(new Loja("Machado de Ossos", 393, 1453));
+    lojas.add(new Loja("Espada das Sombras", 412, 1510));
+    lojas.add(new Loja("Martelo Celestial", 432, 1568));
+    lojas.add(new Loja("Lança Cósmica", 452, 1627));
+    lojas.add(new Loja("Espada do Caos", 473, 1687));
+    lojas.add(new Loja("Machado Flamejante", 494, 1748));
+    lojas.add(new Loja("Lâmina Fantasma", 516, 1810));
+    lojas.add(new Loja("Maça de Fogo", 538, 1873));
+    lojas.add(new Loja("Espada Estelar", 561, 1937));
+    lojas.add(new Loja("Lança Divina", 584, 2002));
+    lojas.add(new Loja("Espada do Infinito", 608, 2068));
+    lojas.add(new Loja("Machado Abissal", 633, 2135));
+    lojas.add(new Loja("Espada Arcana", 658, 2203));
+    lojas.add(new Loja("Lança do Eclipse", 684, 2272));
+    lojas.add(new Loja("Martelo de Aço Negro", 710, 2342));
+    lojas.add(new Loja("Espada do Dragão", 736, 2413));
+    lojas.add(new Loja("Machado de Sangue", 763, 2485));
+    lojas.add(new Loja("Lâmina da Noite", 790, 2558));
+    lojas.add(new Loja("Maça do Juízo", 818, 2632));
+    lojas.add(new Loja("Espada da Aurora", 846, 2707));
+    lojas.add(new Loja("Lança da Tempestade", 874, 2783));
+    lojas.add(new Loja("Machado Feral", 903, 2859));
+    lojas.add(new Loja("Espada do Caçador", 932, 2936));
+    lojas.add(new Loja("Martelo do Trovão", 961, 3014));
+    lojas.add(new Loja("Lança de Gelo", 991, 3093));
+    lojas.add(new Loja("Espada Sombria", 1021, 3173));
+    lojas.add(new Loja("Machado de Fogo", 1051, 3254));
+    lojas.add(new Loja("Lâmina de Cristal", 1082, 3335));
+    lojas.add(new Loja("Maça do Dragão", 1113, 3417));
+    lojas.add(new Loja("Espada Estígia", 1144, 3500));
+    lojas.add(new Loja("Lança da Fúria", 1175, 3583));
+    lojas.add(new Loja("Machado Glacial", 1207, 3667));
+    lojas.add(new Loja("Espada do Vácuo", 1239, 3752));
+    lojas.add(new Loja("Martelo Estelar", 1271, 3837));
+    lojas.add(new Loja("Lança Espectral", 1303, 3923));
+    lojas.add(new Loja("Espada do Abismo", 1335, 4009));
+    lojas.add(new Loja("Machado Etéreo", 1367, 4096));
+    lojas.add(new Loja("Lâmina Infernal", 1400, 4183));
+    lojas.add(new Loja("Maça da Luz", 1433, 4271));
+    lojas.add(new Loja("Espada do Eclipse", 1466, 4359));
+    lojas.add(new Loja("Lança Celestial", 1499, 4448));
+    lojas.add(new Loja("Machado do Caos", 1532, 4537));
+    lojas.add(new Loja("Espada de Titânio", 1565, 4627));
+    lojas.add(new Loja("Martelo de Prata", 1598, 4717));
+    lojas.add(new Loja("Lança do Inverno", 1632, 4807));
+    lojas.add(new Loja("Espada do Fênix", 1665, 4898));
+    lojas.add(new Loja("Machado Sombrio", 1699, 4989));
+    lojas.add(new Loja("Lâmina Radiante", 1733, 5081));
+    lojas.add(new Loja("Maça das Estrelas", 1767, 5173));
+    lojas.add(new Loja("Espada do Destino", 1801, 5265));
+    lojas.add(new Loja("Lança do Vento", 1835, 5357));
+    lojas.add(new Loja("Machado Celeste", 1869, 5450));
+    lojas.add(new Loja("Espada da Tempestade", 1903, 5543));
+    lojas.add(new Loja("Martelo Infernal", 1937, 5636));
+    lojas.add(new Loja("Lança Sagrada", 1972, 5729));
+    lojas.add(new Loja("Espada de Gelo", 2006, 5823));
+    lojas.add(new Loja("Machado do Vácuo", 2041, 5917));
+    lojas.add(new Loja("Lâmina do Dragão", 2075, 6011));
+    lojas.add(new Loja("Maça da Morte", 2110, 6105));
+    lojas.add(new Loja("Espada Estelar", 2145, 6200));
+    lojas.add(new Loja("Lança do Sol", 2180, 6295));
+    lojas.add(new Loja("Machado do Abismo", 2215, 6390));
+    lojas.add(new Loja("Espada do Crepúsculo", 2250, 6486));
+    lojas.add(new Loja("Lança dos Ancestrais", 2285, 6582));
+    lojas.add(new Loja("Martelo de Dragão", 2321, 6678));
+    lojas.add(new Loja("Lâmina do Caos", 2356, 6775));
+    lojas.add(new Loja("Maça de Cristal", 2392, 6872));
+    lojas.add(new Loja("Espada do Fogo Eterno", 2427, 6969));
+    lojas.add(new Loja("Machado da Ruína", 2463, 7067));
+    lojas.add(new Loja("Lança da Destruição", 2499, 7165));
+    lojas.add(new Loja("Espada do Vento Cortante", 2535, 7263));
+    lojas.add(new Loja("Martelo da Terra", 2571, 7362));
+    lojas.add(new Loja("Lâmina da Sombra", 2607, 7461));
+    lojas.add(new Loja("Maça da Tempestade", 2643, 7560));
+    lojas.add(new Loja("Espada do Relâmpago", 2679, 7659));
+    lojas.add(new Loja("Machado da Luz", 2715, 7759));
+    lojas.add(new Loja("Lança do Gelo", 2751, 7859));
+    lojas.add(new Loja("Espada do Caos Celestial", 2787, 7959));
+    lojas.add(new Loja("Martelo do Abismo", 2823, 8059));
+    lojas.add(new Loja("Lâmina Estelar", 2859, 8159));
+    lojas.add(new Loja("Maça do Vento", 2896, 8259));
+    lojas.add(new Loja("Espada da Noite", 2932, 8359));
+    lojas.add(new Loja("Machado dos Deuses", 2968, 8459));
+    lojas.add(new Loja("Lança do Fim", 3005, 8559));
+    lojas.add(new Loja("Espada da Alma", 3041, 8659));
+    lojas.add(new Loja("Martelo do Sol", 3077, 8759));
+    lojas.add(new Loja("Lâmina da Eternidade", 3114, 8859));
+    lojas.add(new Loja("Maça da Luz Eterna", 3150, 8959));
+    lojas.add(new Loja("Espada do Destino Final", 3187, 9059));
+    lojas.add(new Loja("Machado do Crepúsculo", 3223, 9159));
+    lojas.add(new Loja("Lança do Infinito", 3259, 9259));
+    lojas.add(new Loja("Espada do Eclipse", 3296, 9359));
+    lojas.add(new Loja("Martelo do Vácuo", 3333, 9459));
+    lojas.add(new Loja("Lâmina da Fúria", 3369, 9559));
+    lojas.add(new Loja("Maça do Caos", 3406, 9659));
+    lojas.add(new Loja("Espada do Trovão", 3442, 9759));
+    lojas.add(new Loja("Machado da Tempestade", 3479, 9859));
+    lojas.add(new Loja("Lança de Fogo", 3516, 9959));
+    lojas.add(new Loja("Espada das Estrelas", 3552, 10059));
+    lojas.add(new Loja("Martelo da Morte", 3589, 10159));
+    lojas.add(new Loja("Lâmina de Gelo", 3626, 10259));
+    lojas.add(new Loja("Maça da Sombra", 3662, 10359));
+    lojas.add(new Loja("Espada do Céu", 3699, 10459));
+    lojas.add(new Loja("Machado da Luz", 3736, 10559));
+    lojas.add(new Loja("Lança da Tempestade Eterna", 3773, 10659));
+    lojas.add(new Loja("Espada do Apocalipse", 3809, 10759));
+    lojas.add(new Loja("Martelo da Vida", 3846, 10859));
+    lojas.add(new Loja("Lâmina do Juízo", 3883, 10959));
+    lojas.add(new Loja("Maça Estelar", 3920, 11059));
+    lojas.add(new Loja("Espada da Alma Eterna", 3957, 11159));
+    lojas.add(new Loja("Lança do Fim dos Tempos", 3994, 11259));
+
     public Guerreiro(String nome) {
         this.hp = 100;
         this.def = 150;
@@ -338,7 +489,6 @@ public class Guerreiro {
     }
 
     public void comprarArmas(){
-        lojas.add(new Loja("Adaga", 10, 30));
         System.out.println("Bem-vindo à loja de armas, qual deseja?: \n" +
             "1 - Adaga (Atk: 10, custo: 30);\n" +
             "2 - Clava (Atk: 13, custo: 45);\n" +
@@ -491,7 +641,8 @@ public class Guerreiro {
             "149 - Espada da Alma Eterna (Atk: 3957, custo: 11159);\n" +
             "150 - Lança do Fim dos Tempos (Atk: 3994, custo: 11259);"
             );
-            int armaComprar = teclado.nextInt();
+            int armaComprarInserido = teclado.nextInt();
+            int armaComprar = armaComprarInserido - 1; //index para a loja
             if(armas.contains(lojas.get(armaComprar).getNome()){
                 sistem.out.println("Voce ja comprou esta arma, nao e possivel comprar ela duas vezes.");
             }
@@ -506,16 +657,3 @@ public class Guerreiro {
                 sistem.out.println("");
             }    
 }
-
-    
-
-
-
-
-
-
-
-
-
-
-
