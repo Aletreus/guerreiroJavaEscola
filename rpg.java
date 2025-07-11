@@ -643,7 +643,7 @@ public class Guerreiro {
             );
             int armaComprarInserido = teclado.nextInt();
             int armaComprar = armaComprarInserido - 1; //index para a loja
-            if(armas.contains(lojas.get(armaComprar).getNome()){
+            if(armas.contains(lojas.get(armaComprar).getNome())){
                 sistem.out.println("Voce ja comprou esta arma, nao e possivel comprar ela duas vezes.");
             }
             if(this.cash > lojas.get(armaComprar).getCusto()){
